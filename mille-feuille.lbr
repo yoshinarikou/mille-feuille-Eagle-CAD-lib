@@ -585,8 +585,8 @@ ROHM : UMT3 ; EIAJ : SC-70</description>
 <rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
 </package>
 <package name="UR1612MPR/UT1612MPR">
-<pad name="P" x="5" y="0" drill="1.3" diameter="2.54"/>
-<pad name="N" x="-5" y="0" drill="1.3" diameter="2.54"/>
+<pad name="P" x="5" y="0" drill="1.4" diameter="2.54"/>
+<pad name="N" x="-5" y="0" drill="1.4" diameter="2.54"/>
 <circle x="0" y="0" radius="8" width="0.127" layer="21"/>
 <circle x="5.08" y="0" radius="2.54" width="0.127" layer="21"/>
 <text x="6.35" y="5.08" size="1.4224" layer="21">+</text>
@@ -904,22 +904,6 @@ ROHM : UMT3 ; EIAJ : SC-70</description>
 </package>
 <package name="SOIL_MOISTURE_PLOBE">
 <polygon width="0.127" layer="1">
-<vertex x="1.27" y="7.62"/>
-<vertex x="1.27" y="2.54"/>
-<vertex x="19.91785" y="2.54" curve="33.690074"/>
-<vertex x="24.144665625" y="3.819778125" curve="112.619931"/>
-<vertex x="24.144665625" y="6.340221875" curve="33.690061"/>
-<vertex x="19.91785" y="7.62"/>
-</polygon>
-<polygon width="0.127" layer="29">
-<vertex x="1.27" y="7.62"/>
-<vertex x="19.91785" y="7.62" curve="-33.690074"/>
-<vertex x="24.144665625" y="6.340221875" curve="-112.619931"/>
-<vertex x="24.144665625" y="3.819778125" curve="-33.690087"/>
-<vertex x="19.91785" y="2.54"/>
-<vertex x="1.27" y="2.54"/>
-</polygon>
-<polygon width="0.127" layer="1">
 <vertex x="1.27" y="-2.54"/>
 <vertex x="1.27" y="-7.62"/>
 <vertex x="19.91785" y="-7.62" curve="33.690074"/>
@@ -961,6 +945,37 @@ ROHM : UMT3 ; EIAJ : SC-70</description>
 <wire x1="19.91785" y1="2.54" x2="1.27" y2="2.54" width="0" layer="20"/>
 <wire x1="24.144665625" y1="6.340221875" x2="19.91785" y2="7.62" width="0" layer="20" curve="33.690061"/>
 <wire x1="19.91785" y1="7.62" x2="0" y2="7.62" width="0" layer="20"/>
+<wire x1="1.27" y1="-2.54" x2="0" y2="-1.27" width="0" layer="20"/>
+<wire x1="0" y1="-1.27" x2="0" y2="1.27" width="0" layer="20"/>
+<wire x1="0" y1="1.27" x2="1.27" y2="2.54" width="0" layer="20"/>
+<pad name="2" x="3.81" y="-5.08" drill="0.4"/>
+<pad name="P$6" x="6.35" y="-3.81" drill="0.4"/>
+<pad name="P$7" x="6.35" y="-6.35" drill="0.4"/>
+<pad name="P$8" x="8.89" y="-5.08" drill="0.4"/>
+<pad name="P$9" x="11.43" y="-3.81" drill="0.4"/>
+<pad name="P$10" x="11.43" y="-6.35" drill="0.4"/>
+<pad name="P$11" x="13.97" y="-5.08" drill="0.4"/>
+<pad name="P$12" x="16.51" y="-3.81" drill="0.4"/>
+<pad name="P$23" x="16.51" y="-6.35" drill="0.4"/>
+<pad name="P$24" x="19.05" y="-5.08" drill="0.4"/>
+<pad name="P$25" x="21.59" y="-3.81" drill="0.4"/>
+<pad name="P$26" x="21.59" y="-6.35" drill="0.4"/>
+<polygon width="0.127" layer="1">
+<vertex x="1.27" y="7.62"/>
+<vertex x="1.27" y="2.54"/>
+<vertex x="19.91785" y="2.54" curve="33.690074"/>
+<vertex x="24.144665625" y="3.819778125" curve="112.619931"/>
+<vertex x="24.144665625" y="6.340221875" curve="33.690061"/>
+<vertex x="19.91785" y="7.62"/>
+</polygon>
+<polygon width="0.127" layer="29">
+<vertex x="1.27" y="7.62"/>
+<vertex x="19.91785" y="7.62" curve="-33.690074"/>
+<vertex x="24.144665625" y="6.340221875" curve="-112.619931"/>
+<vertex x="24.144665625" y="3.819778125" curve="-33.690087"/>
+<vertex x="19.91785" y="2.54"/>
+<vertex x="1.27" y="2.54"/>
+</polygon>
 <polygon width="0.127" layer="16">
 <vertex x="1.27" y="2.54"/>
 <vertex x="1.27" y="7.62"/>
@@ -977,33 +992,18 @@ ROHM : UMT3 ; EIAJ : SC-70</description>
 <vertex x="19.91785" y="7.62"/>
 <vertex x="1.27" y="7.62"/>
 </polygon>
-<wire x1="1.27" y1="-2.54" x2="0" y2="-1.27" width="0" layer="20"/>
-<wire x1="0" y1="-1.27" x2="0" y2="1.27" width="0" layer="20"/>
-<wire x1="0" y1="1.27" x2="1.27" y2="2.54" width="0" layer="20"/>
-<pad name="2" x="3.81" y="-5.08" drill="0.4"/>
-<pad name="P$6" x="6.35" y="-3.81" drill="0.4"/>
-<pad name="P$7" x="6.35" y="-6.35" drill="0.4"/>
-<pad name="P$8" x="8.89" y="-5.08" drill="0.4"/>
-<pad name="P$9" x="11.43" y="-3.81" drill="0.4"/>
-<pad name="P$10" x="11.43" y="-6.35" drill="0.4"/>
-<pad name="P$11" x="13.97" y="-5.08" drill="0.4"/>
-<pad name="P$12" x="16.51" y="-3.81" drill="0.4"/>
-<pad name="P$13" x="21.59" y="3.81" drill="0.4"/>
-<pad name="P$14" x="21.59" y="6.35" drill="0.4"/>
-<pad name="P$15" x="19.05" y="5.08" drill="0.4"/>
-<pad name="P$16" x="16.51" y="3.81" drill="0.4"/>
-<pad name="P$17" x="16.51" y="6.35" drill="0.4"/>
-<pad name="P$18" x="13.97" y="5.08" drill="0.4"/>
-<pad name="P$19" x="8.89" y="5.08" drill="0.4"/>
 <pad name="1" x="3.81" y="5.08" drill="0.4"/>
 <pad name="P$1" x="6.35" y="6.35" drill="0.4"/>
 <pad name="P$2" x="6.35" y="3.81" drill="0.4"/>
-<pad name="P$3" x="11.43" y="6.35" drill="0.4"/>
-<pad name="P$4" x="11.43" y="3.81" drill="0.4"/>
-<pad name="P$23" x="16.51" y="-6.35" drill="0.4"/>
-<pad name="P$24" x="19.05" y="-5.08" drill="0.4"/>
-<pad name="P$25" x="21.59" y="-3.81" drill="0.4"/>
-<pad name="P$26" x="21.59" y="-6.35" drill="0.4"/>
+<pad name="P$3" x="8.89" y="5.08" drill="0.4"/>
+<pad name="P$4" x="11.43" y="6.35" drill="0.4"/>
+<pad name="P$5" x="11.43" y="3.81" drill="0.4"/>
+<pad name="P$13" x="13.97" y="5.08" drill="0.4"/>
+<pad name="P$14" x="16.51" y="6.35" drill="0.4"/>
+<pad name="P$15" x="16.51" y="3.81" drill="0.4"/>
+<pad name="P$16" x="19.05" y="5.08" drill="0.4"/>
+<pad name="P$17" x="21.59" y="6.35" drill="0.4"/>
+<pad name="P$18" x="21.59" y="3.81" drill="0.4"/>
 </package>
 <package name="SOD523">
 <wire x1="-0.59" y1="0.4" x2="0.59" y2="0.4" width="0.1016" layer="51"/>
@@ -1851,6 +1851,9 @@ ROHM : UMT3 ; EIAJ : SC-70</description>
 <text x="2.54" y="7.62" size="2.54" layer="21">K</text>
 <wire x1="-6.35" y1="7.62" x2="6.35" y2="7.62" width="0.127" layer="21"/>
 <wire x1="-6.35" y1="5.715" x2="6.35" y2="5.715" width="0.127" layer="21"/>
+</package>
+<package name="PIN1X1">
+<pad name="P$1" x="0" y="0" drill="1" diameter="1.778"/>
 </package>
 </packages>
 <symbols>
@@ -2968,7 +2971,7 @@ ROHM : UMT3 ; EIAJ : SC-70</description>
 </symbol>
 <symbol name="MCP73831">
 <pin name="1STAT" x="-12.7" y="-5.08" length="short" direction="out"/>
-<pin name="2VSS" x="12.7" y="-5.08" length="short" direction="sup" rot="R180"/>
+<pin name="2VSS" x="12.7" y="-5.08" length="short" rot="R180"/>
 <pin name="5PROG" x="12.7" y="0" length="short" direction="in" rot="R180"/>
 <pin name="3VBAT" x="12.7" y="5.08" length="short" direction="out" rot="R180"/>
 <pin name="4VDD" x="-12.7" y="5.08" length="short" direction="sup"/>
@@ -3011,6 +3014,13 @@ ROHM : UMT3 ; EIAJ : SC-70</description>
 <wire x1="7.62" y1="5.08" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-5.08" x2="-7.62" y2="-5.08" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-5.08" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+</symbol>
+<symbol name="PIN1X1">
+<pin name="P$1" x="2.54" y="0" length="short" rot="R180"/>
+<wire x1="0" y1="1.27" x2="-10.16" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="1.27" x2="-10.16" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-1.27" x2="0" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="-1.27" x2="0" y2="1.27" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -4492,6 +4502,21 @@ pin-outs.</description>
 <connect gate="G$1" pin="GND" pad="1"/>
 <connect gate="G$1" pin="IN" pad="3"/>
 <connect gate="G$1" pin="OUT" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TESTPIN" prefix="P">
+<gates>
+<gate name="G$1" symbol="PIN1X1" x="0" y="0"/>
+</gates>
+<devices>
+<device name="DIP1MM" package="PIN1X1">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
