@@ -4584,12 +4584,12 @@ pin-outs.</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MOLEX47364-0001">
+<deviceset name="USB_CONNECTOR">
 <gates>
 <gate name="G$1" symbol="MICROUSB" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="MOLEX_47364-0001">
+<device name="MICRO" package="MOLEX_47364-0001">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
