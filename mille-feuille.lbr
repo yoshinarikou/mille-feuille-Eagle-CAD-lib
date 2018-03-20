@@ -5064,9 +5064,9 @@ SOT340-1 / JEDEC MO-150AG</description>
 <text x="-9.906" y="5.842" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 <symbol name="JUMPER_SELECT_CONNECTED">
-<pin name="1" x="-5.08" y="0" visible="pad" length="short"/>
-<pin name="2" x="0" y="2.54" visible="pad" length="short" rot="R270"/>
-<pin name="3" x="5.08" y="0" visible="pad" length="short" rot="R180"/>
+<pin name="1" x="-7.62" y="0" visible="pad" length="middle"/>
+<pin name="2" x="0" y="5.08" visible="pad" length="middle" rot="R270"/>
+<pin name="3" x="7.62" y="0" visible="pad" length="middle" rot="R180"/>
 <rectangle x1="-1.27" y1="-1.27" x2="1.27" y2="1.27" layer="94"/>
 <polygon width="0.254" layer="94">
 <vertex x="-2.54" y="-1.27" curve="-90"/>
